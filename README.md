@@ -13,3 +13,12 @@ Comparing different kinds of molecules and classifying them by similarity groups
 * Néstor F. Aguirre ( nfaguirrec@unal.edu.co, nfaguirrec@gmail.com )
 * Johan F. Galindo ( jfgalindoc@unal.edu.co )
 * Edgar E. Daza C. ( eedazac@unal.edu.co )
+
+## Citing
+
+To cite the code, please proceed as follows:
+
+[![DOI](https://zenodo.org/badge/91266409.svg)](https://zenodo.org/badge/latestdoi/91266409)
+
+![Terminal](doc/nacmos.png)
+
