@@ -18,7 +18,7 @@ Comparing different kinds of molecules and classifying them by similarity groups
 
 To cite the code, please proceed as follows:
 
-[![DOI](https://zenodo.org/badge/91266409.svg)](https://zenodo.org/badge/latestdoi/91266409)
+[![DOI](https://zenodo.org/badge/139757124.svg)](https://zenodo.org/badge/latestdoi/139757124)
 
 ![Terminal](doc/nacmos.png)
 
