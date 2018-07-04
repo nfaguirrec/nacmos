@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="1" >
+  <Doc0 NumberOfViews="1" URL="file:///home/nestor/Develop/Source/C%2B%2B/Projects/nacmos/src/nacmos/nacmoswidgetbase.ui" >
+   <View0 Type="Other" />
+  </Doc0>
+ </DocsAndViews>
+ <pluginList>
+  <kdevdebugger>
+   <breakpointList/>
+  </kdevdebugger>
+  <kdevbookmarks>
+   <bookmarks>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/nacmos/clusteringwithsom.cpp" >
+     <mark line="237" />
+    </bookmark>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/nacmos/fragmenter.cpp" >
+     <mark line="116" />
+    </bookmark>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/nacmos/graphseditor.cpp" >
+     <mark line="256" />
+     <mark line="46" />
+    </bookmark>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/qge/qgewidget.cpp" >
+     <mark line="338" />
+    </bookmark>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/nacmos/weightingnodeswizard.cpp" >
+     <mark line="259" />
+     <mark line="196" />
+     <mark line="63" />
+     <mark line="186" />
+    </bookmark>
+    <bookmark url="/home/nestor/Desarrollo/Source/C++/Projects/nacmos/src/SwapFile.cpp" >
+     <mark line="21" />
+    </bookmark>
+   </bookmarks>
+  </kdevbookmarks>
+  <kdevvalgrind>
+   <executable path="" params="" />
+   <valgrind path="" params="" />
+   <calltree path="" params="" />
+   <kcachegrind path="" />
+  </kdevvalgrind>
+ </pluginList>
+</KDevPrjSession>

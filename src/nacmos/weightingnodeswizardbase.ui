@@ -1,0 +1,1249 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>WeightingNodesWizardBase</class>
+<widget class="QWizard">
+    <property name="name">
+        <cstring>WeightingNodesWizardBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>583</width>
+            <height>494</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>5</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="baseSize">
+        <size>
+            <width>600</width>
+            <height>520</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Weighting Nodes Wizard</string>
+    </property>
+    <widget class="QWidget">
+        <property name="name">
+            <cstring>GraphSource</cstring>
+        </property>
+        <attribute name="title">
+            <string>Graph Source</string>
+        </attribute>
+        <grid>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QTabWidget" row="0" column="0">
+                <property name="name">
+                    <cstring>tabWidget</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <widget class="QWidget">
+                    <property name="name">
+                        <cstring>tab</cstring>
+                    </property>
+                    <attribute name="title">
+                        <string>&amp;Random graphs</string>
+                    </attribute>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QGroupBox" row="0" column="0">
+                            <property name="name">
+                                <cstring>groupBox4</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Template graphs</string>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>25</number>
+                                </property>
+                                <widget class="QLabel" row="0" column="0">
+                                    <property name="name">
+                                        <cstring>textLabel3</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Draw Graphs</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton" row="0" column="1">
+                                    <property name="name">
+                                        <cstring>pushButtonDrawGraphs</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>...</string>
+                                    </property>
+                                    <property name="whatsThis" stdset="0">
+                                        <string></string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="1" column="0">
+                                    <property name="name">
+                                        <cstring>textLabel2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Load Graphs</string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton" row="1" column="1">
+                                    <property name="name">
+                                        <cstring>pushButtonLoadGraphs</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>...</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="0" column="3">
+                                    <property name="name">
+                                        <cstring>textLabel4</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Added :</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit" row="0" column="4">
+                                    <property name="name">
+                                        <cstring>lineEditDrawGraph</cstring>
+                                    </property>
+                                    <property name="readOnly">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton" row="1" column="3" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>pushButtonViewTemplateGraphs</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>View &amp;Graphs ...</string>
+                                    </property>
+                                    <property name="accel">
+                                        <string>Alt+G</string>
+                                    </property>
+                                </widget>
+                                <spacer row="1" column="2">
+                                    <property name="name">
+                                        <cstring>spacer5</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>40</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </grid>
+                        </widget>
+                        <spacer row="1" column="0">
+                            <property name="name">
+                                <cstring>spacer8</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Minimum</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QGroupBox" row="2" column="0">
+                            <property name="name">
+                                <cstring>groupBox6</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Sequence Generator</string>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <property name="margin">
+                                    <number>25</number>
+                                </property>
+                                <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>textLabel5</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>How Many Sequences :</string>
+                                    </property>
+                                </widget>
+                                <widget class="QSpinBox" row="0" column="2">
+                                    <property name="name">
+                                        <cstring>spinBoxHowManySequences</cstring>
+                                    </property>
+                                    <property name="maxValue">
+                                        <number>50000000</number>
+                                    </property>
+                                </widget>
+                                <widget class="QProgressBar" row="2" column="0" rowspan="1" colspan="3">
+                                    <property name="name">
+                                        <cstring>progressBarSequenceGenerator</cstring>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton" row="1" column="0">
+                                    <property name="name">
+                                        <cstring>pushButtonRun</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Run</string>
+                                    </property>
+                                </widget>
+                                <spacer row="1" column="1" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>spacer7</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>190</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton" row="4" column="0">
+                                    <property name="name">
+                                        <cstring>pushButtonViewRandomGraphs</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>View &amp;Graphs ...</string>
+                                    </property>
+                                    <property name="accel">
+                                        <string>Alt+G</string>
+                                    </property>
+                                </widget>
+                                <spacer row="4" column="1" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>spacer3</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>330</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <spacer row="3" column="2">
+                                    <property name="name">
+                                        <cstring>spacer46_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Minimum</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>16</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </grid>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QWidget">
+                    <property name="name">
+                        <cstring>tab</cstring>
+                    </property>
+                    <attribute name="title">
+                        <string>La&amp;bel graphs</string>
+                    </attribute>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QGroupBox">
+                            <property name="name">
+                                <cstring>groupBox4_2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Graph Generator</string>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel" row="0" column="3">
+                                    <property name="name">
+                                        <cstring>textLabel4_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Added</string>
+                                    </property>
+                                </widget>
+                                <spacer row="0" column="0" rowspan="1" colspan="3">
+                                    <property name="name">
+                                        <cstring>spacer1_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>220</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton" row="1" column="1">
+                                    <property name="name">
+                                        <cstring>pushButtonLoadLabelGraphs</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>...</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="1" column="0">
+                                    <property name="name">
+                                        <cstring>textLabel2_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Load Label Graphs</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit" row="1" column="3" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>lineEditLoadLabelGraphs</cstring>
+                                    </property>
+                                </widget>
+                                <spacer row="1" column="2">
+                                    <property name="name">
+                                        <cstring>spacer6_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>170</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <spacer row="2" column="4">
+                                    <property name="name">
+                                        <cstring>spacer4_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Minimum</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton" row="3" column="0">
+                                    <property name="name">
+                                        <cstring>pushButtonViewGraphsLoad</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>View &amp;Graphs ...</string>
+                                    </property>
+                                    <property name="accel">
+                                        <string>Alt+G</string>
+                                    </property>
+                                </widget>
+                                <spacer row="3" column="1" rowspan="1" colspan="4">
+                                    <property name="name">
+                                        <cstring>spacer3_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>200</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </grid>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer14</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>170</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </vbox>
+                </widget>
+                <widget class="QWidget">
+                    <property name="name">
+                        <cstring>TabPage</cstring>
+                    </property>
+                    <attribute name="title">
+                        <string>Se&amp;quences on templeates</string>
+                    </attribute>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>groupBox4_3</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>11</x>
+                                <y>11</y>
+                                <width>503</width>
+                                <height>109</height>
+                            </rect>
+                        </property>
+                        <property name="title">
+                            <string></string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <property name="margin">
+                                <number>25</number>
+                            </property>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel3_2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Draw Graphs and Load Sequences</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="0" column="1">
+                                <property name="name">
+                                    <cstring>pushButtonDrawGraphsAndSequences</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>...</string>
+                                </property>
+                                <property name="whatsThis" stdset="0">
+                                    <string></string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>textLabel2_3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Load Graphs and Sequences</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="1">
+                                <property name="name">
+                                    <cstring>pushButtonLoadGraphsAndSequences</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>...</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="3">
+                                <property name="name">
+                                    <cstring>textLabel4_3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Added :</string>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="0" column="4">
+                                <property name="name">
+                                    <cstring>lineEditGraphWithSequences</cstring>
+                                </property>
+                                <property name="readOnly">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="3" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>pushButtonViewLoadGraphsAndSequences</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>View &amp;Graphs ...</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+G</string>
+                                </property>
+                            </widget>
+                            <spacer row="1" column="2">
+                                <property name="name">
+                                    <cstring>spacer5_2</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Expanding</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </grid>
+                    </widget>
+                    <spacer>
+                        <property name="name">
+                            <cstring>spacer14_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>212</height>
+                            </size>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>252</x>
+                                <y>126</y>
+                                <width>20</width>
+                                <height>212</height>
+                            </rect>
+                        </property>
+                    </spacer>
+                </widget>
+                <widget class="QWidget">
+                    <property name="name">
+                        <cstring>TabPage</cstring>
+                    </property>
+                    <attribute name="title">
+                        <string>ViennaRNA</string>
+                    </attribute>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <spacer row="1" column="0">
+                            <property name="name">
+                                <cstring>spacer14_2_2</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>120</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QGroupBox" row="0" column="0">
+                            <property name="name">
+                                <cstring>groupBox4_2_2</cstring>
+                            </property>
+                            <property name="title">
+                                <string>Graph Generator from Fasta</string>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer row="0" column="0" rowspan="1" colspan="3">
+                                    <property name="name">
+                                        <cstring>spacer1_2_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>220</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton" row="1" column="1">
+                                    <property name="name">
+                                        <cstring>pushButtonLoadFastaViennaRNA</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>...</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="1" column="0">
+                                    <property name="name">
+                                        <cstring>textLabel2_2_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Load Fasta Files</string>
+                                    </property>
+                                </widget>
+                                <spacer row="2" column="4">
+                                    <property name="name">
+                                        <cstring>spacer4_2_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Minimum</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <spacer row="1" column="2">
+                                    <property name="name">
+                                        <cstring>spacer6_2_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>170</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLabel" row="0" column="3">
+                                    <property name="name">
+                                        <cstring>textLabel4_2_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Added</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLineEdit" row="1" column="3" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>lineEditLoadFastaViennaRNA</cstring>
+                                    </property>
+                                </widget>
+                                <spacer row="3" column="1" rowspan="1" colspan="4">
+                                    <property name="name">
+                                        <cstring>spacer3_2_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>200</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton" row="2" column="0" rowspan="2" colspan="1">
+                                    <property name="name">
+                                        <cstring>pushButtonViewGraphsViennaRNA</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>View &amp;Graphs ...</string>
+                                    </property>
+                                    <property name="accel">
+                                        <string>Alt+G</string>
+                                    </property>
+                                </widget>
+                            </grid>
+                        </widget>
+                    </grid>
+                </widget>
+            </widget>
+        </grid>
+    </widget>
+    <widget class="QWidget">
+        <property name="name">
+            <cstring>MotifName</cstring>
+        </property>
+        <attribute name="title">
+            <string>Motif Name</string>
+        </attribute>
+        <grid>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <spacer row="0" column="1">
+                <property name="name">
+                    <cstring>spacer25</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Minimum</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>16</width>
+                        <height>20</height>
+                    </size>
+                </property>
+            </spacer>
+            <spacer row="0" column="0">
+                <property name="name">
+                    <cstring>spacer27</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Vertical</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Minimum</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>20</width>
+                        <height>10</height>
+                    </size>
+                </property>
+            </spacer>
+            <widget class="QLayoutWidget" row="0" column="2">
+                <property name="name">
+                    <cstring>layout7</cstring>
+                </property>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel8</cstring>
+                        </property>
+                        <property name="text">
+                            <string>&lt;b&gt;Current Translation&lt;/b&gt;</string>
+                        </property>
+                    </widget>
+                    <widget class="QTable">
+                        <column>
+                            <property name="text">
+                                <string>Internal Id</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Motif Name</string>
+                            </property>
+                        </column>
+                        <property name="name">
+                            <cstring>tableMotifName</cstring>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>250</height>
+                            </size>
+                        </property>
+                        <property name="maximumSize">
+                            <size>
+                                <width>32767</width>
+                                <height>32767</height>
+                            </size>
+                        </property>
+                        <property name="numRows">
+                            <number>3</number>
+                        </property>
+                        <property name="numCols">
+                            <number>2</number>
+                        </property>
+                    </widget>
+                    <widget class="QPushButton">
+                        <property name="name">
+                            <cstring>pushButtonSave</cstring>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>130</width>
+                                <height>0</height>
+                            </size>
+                        </property>
+                        <property name="text">
+                            <string>&amp;Save Name List</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+S</string>
+                        </property>
+                    </widget>
+                </vbox>
+            </widget>
+            <widget class="QLayoutWidget" row="0" column="0">
+                <property name="name">
+                    <cstring>layout8</cstring>
+                </property>
+                <vbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox">
+                        <property name="name">
+                            <cstring>groupBox9</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Select Translation Source</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <property name="margin">
+                                <number>25</number>
+                            </property>
+                            <widget class="QPushButton" row="0" column="0">
+                                <property name="name">
+                                    <cstring>pushButtonGetNameGQT</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Get name G&amp;QT</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+Q</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="0">
+                                <property name="name">
+                                    <cstring>pushButtonLoad</cstring>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>130</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>&amp;Load</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+L</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <spacer>
+                        <property name="name">
+                            <cstring>spacer30</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>40</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QgeWidget">
+                        <property name="name">
+                            <cstring>qgeWidget</cstring>
+                        </property>
+                        <property name="sizePolicy">
+                            <sizepolicy>
+                                <hsizetype>0</hsizetype>
+                                <vsizetype>0</vsizetype>
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>200</width>
+                                <height>200</height>
+                            </size>
+                        </property>
+                        <property name="maximumSize">
+                            <size>
+                                <width>32767</width>
+                                <height>32767</height>
+                            </size>
+                        </property>
+                    </widget>
+                    <spacer>
+                        <property name="name">
+                            <cstring>spacer24</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>20</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </vbox>
+            </widget>
+        </grid>
+    </widget>
+    <widget class="QWidget">
+        <property name="name">
+            <cstring>WeightingNodesFromMotives</cstring>
+        </property>
+        <attribute name="title">
+            <string>Weighting Nodes From Motives</string>
+        </attribute>
+        <grid>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <widget class="QTable" row="1" column="0" rowspan="1" colspan="3">
+                <column>
+                    <property name="text">
+                        <string>Internal Id</string>
+                    </property>
+                </column>
+                <column>
+                    <property name="text">
+                        <string>Motif Name</string>
+                    </property>
+                </column>
+                <property name="name">
+                    <cstring>tableProperties</cstring>
+                </property>
+                <property name="sizePolicy">
+                    <sizepolicy>
+                        <hsizetype>2</hsizetype>
+                        <vsizetype>7</vsizetype>
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                    </sizepolicy>
+                </property>
+                <property name="maximumSize">
+                    <size>
+                        <width>32767</width>
+                        <height>300</height>
+                    </size>
+                </property>
+                <property name="numRows">
+                    <number>4</number>
+                </property>
+                <property name="numCols">
+                    <number>2</number>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="2" column="0">
+                <property name="name">
+                    <cstring>pushButtonSaveProperties</cstring>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>140</width>
+                        <height>0</height>
+                    </size>
+                </property>
+                <property name="text">
+                    <string>&amp;Save</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+S</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="0" column="2">
+                <property name="name">
+                    <cstring>pushButtonRemoveProperty</cstring>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>140</width>
+                        <height>0</height>
+                    </size>
+                </property>
+                <property name="text">
+                    <string>&amp;Remove Property</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+R</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="0" column="0">
+                <property name="name">
+                    <cstring>pushButtonLoadProperties</cstring>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>140</width>
+                        <height>0</height>
+                    </size>
+                </property>
+                <property name="text">
+                    <string>&amp;Load Properties ...</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+L</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" row="0" column="1">
+                <property name="name">
+                    <cstring>pushButtonAddProperty</cstring>
+                </property>
+                <property name="minimumSize">
+                    <size>
+                        <width>140</width>
+                        <height>0</height>
+                    </size>
+                </property>
+                <property name="text">
+                    <string>&amp;Add Property</string>
+                </property>
+                <property name="accel">
+                    <string>Alt+A</string>
+                </property>
+            </widget>
+            <spacer row="3" column="1">
+                <property name="name">
+                    <cstring>spacer45</cstring>
+                </property>
+                <property name="orientation">
+                    <enum>Vertical</enum>
+                </property>
+                <property name="sizeType">
+                    <enum>Minimum</enum>
+                </property>
+                <property name="sizeHint">
+                    <size>
+                        <width>20</width>
+                        <height>10</height>
+                    </size>
+                </property>
+            </spacer>
+        </grid>
+    </widget>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>QgeWidget</class>
+        <header location="global">qgewidget.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="XBM.GZ" length="79">789c534e494dcbcc4b554829cdcdad8c2fcf4c29c95030e0524611cd48cd4ccf28010a1797249664262b2467241641a592324b8aa363156c15aab914146aadb90067111b1f</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushButtonRun</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>run()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonDrawGraphs</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>drawGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonViewRandomGraphs</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewPrincipalGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonViewTemplateGraphs</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewTemplateGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoadGraphs</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoadLabelGraphs</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadLabelGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonViewGraphsLoad</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewGraphsLoad()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonDrawGraphsAndSequences</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>drawGraphsAndSequences()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoadGraphsAndSequences</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadGraphsAndSequences()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonViewLoadGraphsAndSequences</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewPrincipalGraphs()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonGetNameGQT</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>getNameGQT()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoad</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadNames()</slot>
+    </connection>
+    <connection>
+        <sender>tableMotifName</sender>
+        <signal>currentChanged(int,int)</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewSubgraph(int)</slot>
+    </connection>
+    <connection>
+        <sender>WeightingNodesWizardBase</sender>
+        <signal>selected(const QString&amp;)</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>currentChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoadProperties</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadProperties()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonAddProperty</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>addProperty()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonRemoveProperty</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>removeProperty()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoadFastaViennaRNA</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>loadFastaViennaRNA()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonViewGraphsViennaRNA</sender>
+        <signal>pressed()</signal>
+        <receiver>WeightingNodesWizardBase</receiver>
+        <slot>viewGraphsViennaRNA()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>run()</slot>
+    <slot>viewPrincipalGraphs()</slot>
+    <slot>drawGraphs()</slot>
+    <slot>updateContents()</slot>
+    <slot>viewTemplateGraphs()</slot>
+    <slot>loadGraphs()</slot>
+    <slot>loadLabelGraphs()</slot>
+    <slot>viewGraphsLoad()</slot>
+    <slot>loadGraphsAndSequences()</slot>
+    <slot>drawGraphsAndSequences()</slot>
+    <slot>viewSubgraph(int)</slot>
+    <slot>loadNames()</slot>
+    <slot>getNameGQT()</slot>
+    <slot>currentChanged( const QString&amp; )</slot>
+    <slot>loadProperties()</slot>
+    <slot>addProperty()</slot>
+    <slot>removeProperty()</slot>
+    <slot>viewGraphsViennaRNA()</slot>
+    <slot>loadFastaViennaRNA()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>qgewidget.h</includehint>
+</includehints>
+</UI>

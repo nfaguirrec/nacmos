@@ -1,0 +1,380 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>FormQgeConfigPropertiesWidget</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>FormQgeConfigPropertiesWidget</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>561</width>
+            <height>331</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QFrame" row="0" column="0">
+            <property name="name">
+                <cstring>frame6</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>GroupBoxPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Raised</enum>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="3" column="0">
+                    <property name="name">
+                        <cstring>textLabelType</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Type :</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox" row="3" column="1" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>comboBoxType</cstring>
+                    </property>
+                </widget>
+                <spacer row="3" column="4" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>70</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLineEdit" row="2" column="1" rowspan="1" colspan="5">
+                    <property name="name">
+                        <cstring>lineEditLabel</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>textLabelLabel</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>100</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>Label :</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabelInternalId</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>100</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>Internal ID :</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>lineEditInternalId</cstring>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <spacer row="0" column="4" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>100</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="1" column="4" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>spacer3_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>168</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>textLabelExternalId</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>100</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                    <property name="text">
+                        <string>External ID :</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="1" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>lineEditExternalId</cstring>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="9" column="0">
+                    <property name="name">
+                        <cstring>checkBoxSetFirst</cstring>
+                    </property>
+                    <property name="text">
+                        <string>set First</string>
+                    </property>
+                </widget>
+                <widget class="QCheckBox" row="8" column="0">
+                    <property name="name">
+                        <cstring>checkBoxSelected</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Selected</string>
+                    </property>
+                    <property name="accel">
+                        <string></string>
+                    </property>
+                </widget>
+                <spacer row="9" column="1" rowspan="1" colspan="5">
+                    <property name="name">
+                        <cstring>spacer4_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>329</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="5" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Neigbor Range :</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="5" column="3" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>lineEditNeighborRange</cstring>
+                    </property>
+                </widget>
+                <spacer row="4" column="3">
+                    <property name="name">
+                        <cstring>spacer11</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="6" column="3">
+                    <property name="name">
+                        <cstring>spacer11_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>21</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="5" column="5">
+                    <property name="name">
+                        <cstring>spacer14</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QCheckBox" row="7" column="0">
+                    <property name="name">
+                        <cstring>checkBoxAutoLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Auto Label</string>
+                    </property>
+                </widget>
+                <spacer row="7" column="1">
+                    <property name="name">
+                        <cstring>spacer4_3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>40</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QCheckBox" row="7" column="2" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>checkBoxChangeType</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Disable Change T&amp;ype</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+Y</string>
+                    </property>
+                </widget>
+                <spacer row="7" column="5">
+                    <property name="name">
+                        <cstring>spacer10</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>160</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="8" column="5">
+                    <property name="name">
+                        <cstring>spacer10_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>148</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="8" column="1">
+                    <property name="name">
+                        <cstring>spacer4_3_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>108</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QCheckBox" row="8" column="2" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>checkBoxShowLabel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Show La&amp;bel</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+B</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>checkBoxAutoLabel</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>lineEditLabel</receiver>
+        <slot>setDisabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>checkBoxChangeType</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>comboBoxType</receiver>
+        <slot>setDisabled(bool)</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

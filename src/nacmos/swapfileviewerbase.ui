@@ -1,0 +1,288 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>SwapFileViewerBase</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>SwapFileViewerBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>580</width>
+            <height>482</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Graph Database Viewer</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="0" rowspan="2" colspan="1">
+            <property name="name">
+                <cstring>layout13</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="frameShape">
+                        <enum>NoFrame</enum>
+                    </property>
+                    <property name="lineWidth">
+                        <number>1</number>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                    <property name="pixmap">
+                        <pixmap>image0</pixmap>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButtonLoad</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Load</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+L</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButtonSave</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Save</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+S</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButtonClear</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Clear</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButtonRemoveThis</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Remove This</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+R</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer12</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Fixed</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>40</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Graph Number :</string>
+                    </property>
+                </widget>
+                <widget class="QSpinBox">
+                    <property name="name">
+                        <cstring>spinBoxGraphNumber</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>100</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer19</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>120</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButtonHelp</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Help</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+H</string>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget" row="0" column="1">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Name :</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>lineEditName</cstring>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QgeWidget" row="1" column="1">
+            <property name="name">
+                <cstring>qgeWidget</cstring>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy>
+                    <hsizetype>7</hsizetype>
+                    <vsizetype>7</vsizetype>
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>0</height>
+                </size>
+            </property>
+            <property name="maximumSize">
+                <size>
+                    <width>32767</width>
+                    <height>32767</height>
+                </size>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>QgeWidget</class>
+        <header location="global">qgewidget.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image1</pixmap>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="PNG" length="3015">89504e470d0a1a0a0000000d494844520000004800000048080600000055edb34700000b8e49444154789ced9c7b705cd57d80bf73efddbb77df2b69f5b265497e20c0ae6d6220016a27a5109286249081006dd301daa149a733a5740aed6432d302e92b0f9ac4619ad0d0b853c625240d352193105328210162430db2317ec996f5b225ed6adfbbf77dfa875c07bfb48a7d85e9cc7e333bbb333af777cef9eed97b7ee7dcab15524a9a9c19e57c37e0dd4e5350039a821ad014d480a6a006340535a029a8014d410d680a6a405350039a821ad014d480a6a00668e7bb019f7e4d84869f377a8a53f2024d13dd76cd37edb23f15cfe87b7ff60fd589f3dd3ef14e6d77dc7fbf50b612fe7024c1474311b14e6864842233428894aa839e1028ff77ba2458258953c705b2d29359df65ac9a932f4eefe4076f3d61ed7c471acd020bfaf823225a9c346e8bb5719d6a70add122da54fddc62ba26b23eed0fd68bfe7f15c7d41fbeb6b1fe5c30ad3d3d0b26e8ea07a3b7257ae497a31d62d1825400f82ee40ff83fdcffbcbc77f869ebad85a82370416b3f15ede9be5c3e94e8159f3cd7d1325fcca2cc4eee900fbef2256ba30cb843810a7afffde135a95ee5995887e80a2ce87c9130b9d3fbce7f7fd6be434a69061536d0693e9a11df3e2f72000474ae516fbde2bef01d41860d4cd0a5778536c432625d50f1ce96d6e5dc2484082c7d094c506e58fe1e22a868674f3dc7053debf95850f10213e4d5647c72f0fcdf429ada296da113d8480e4c50b4cbdf5b19958e5d12701e3c4909e511612b1a7d2dcb082c030f4c50db851c8d6494d0c44ba15ae190c477838adc18cf86ec4e6a533b4256cb7245375aa905153b30418a82e8dd10221cd7a2c5dda9e9c95795aa5d96483fa81a4e45fa509d948c3e1b1ead8f25fd648f96e8be34d8e56560d1a440a83a2cbb264a65c468cfee8e3bd3af58137a7bbe2bdcea29913650c36f5b6f9d25be0b6e5d52cf09ecc974cdc9c74ab1b85cd27989829ea9613956301d3ac682ace6db961b74f42742e3dbad45beb9c4330fd907b3fbb336b17cafde6a45a319811a024513080584028863efcc8e0ce903127c0f7c57e259604dc5516a2d59bf9ea8848d58474875a2fa722fdabd4ec3f64b584e60dface32cd8764728a272e135dd844452ad4d8a65f9611ba726f0eb4ad1da57ad38b26eaa9a5485eeeba8a6e1897a0cc50e6b6ad4d7fc783da4c44de9ea2e9eeae1695a480f27b588304c51ce447a944caa374424e3637b452ca700f6c2f42330417601e374ab164553c82c4db378204d584f63e664aa32eda4dcba825b13484745a0e2793ed2f71142284251628a22623e0e8aee138a826a7824ba75f48487e514319d02965d04efc4faa407be155cbf020b94dd4b5fef7a89119ebb5cbaab85cede14e1501a23342b4d530d00a49408f1cb6cd376cab332ec0296333b522cbb3067fcd2984f7194b673eed031821b41556285219fe459362d3731c9e8de21a2c904bd172dc788457ff520120a077dec32f1b36bc5a9042628ddcf58f9884f2de7a177ccef18dbb4d9f29547f88f871ea594cb138e4630ab3584105c78f95aeefcdb7b18b872605eb1a42f298c38d815497a39e3e7d09513082c0f4a2d25a7c705938316f9c326ae35770254ce15b9fbbdb7f1cca6eff1d9cd5fe7a9d25b3c5dd9cb63875ee6badb6f66cfb6d7f98b6b6f67f3038f34acdbae7a4cef35c9ed7348f5298493bc3bb73b965ca5a1450453bb6b1c7db344256be139a78a92bee42b77fe0db669f3f0f62d5cfac10d44e23100bafa7bb8f7db0f71d50dd701f0bd2f6ce2f5addb4f5b9f67fb14c66b4c0c969819328977a974ac5683ec52708284400815965c11a1e7b204855193f1376638ba6786ec70814aae8a63b9482939bceb10bb5ed8c17577dc88118b9c36de27fee4f781d90bf7535ffdeeec675fe2980ea5a90a53437926decc716457817adea17f4392ced56182de5158903c28de1962e547331cdde13075a04079c2a390b249656c5ada6c5effd1ec4d89fffcea63f4adbc98f5377c04a12828aa0a52e2fb3e5d7d3dc7e30dfdcf3ea60e4f52ca4f51cc4d539ac9512915b0cc0ac92511321745319d2296137c5f8213244e3c778a2a587a653be1501abb10a238e2901dce5218ad51989a9daa6be52a7fffbbf770f7374c96ae1a40d1349012cff5d8b36dc7f15876dd62dfcb7b70dc2a3e26c9455116ad4da2c6acd9a9df997bea3f17021354cb123bd3c234d911a37df16cce23ec08dd4bfb78fe5fb702b35fa1c36fee430febf8fe6ca6a9aa0a832ffce2f8f189b6142b2ebb807857085f54df96289ebaeef21db02b0476bb203041337be8b3d64b0c63ee72e158988bd7afe24f377d8e27bff838cbd65ccca7bff839343d7442b927bff62fc73fbff76357d1b562d1b14471eef8c5119fcaf8bb3051941ea1fc018f54fbfcca5ff9890f70f52d371ccba44f94f3f4371f63df6bb3d7292316e1e6bffcd4fcdae04361d8c7b5831b4181cd622d2b18a94c4a2a932ebe77f65b8a0776ece2e1bbff0a804822c67d9bff8e74676bc3e37c573233e4e0d625e9a51c39eb069c44602328d14b514330f9a68d5f33d1967984d3bf5a8c6ab1cc039ffc0c8e65d3b6a893fbb7fc138b577663ceb5fe92502f3a4ceeaf3333e2d036a0523812dcda3ed04471d1651ab17695ecfe3a1383258a476ab89687f41b8f28d77678f096cf30317498fe55036c7c790bcbd65e74c6f2d297387597dc70852383658a23166d2b42b40e04fb444fb0d3bc80ae3561e4f238e3db6cc66b79ccc51aa95648b5a9a4da22e88953a73adff3f8fc6fff31affee4a75c72f555fcf5f7ff99783a89ed944f28e7b91ef5b2493157249fcd5229e4c98d17f185cff26b52f85a29f05c28304142fe320f32d21aabaecf90dbeb33335aa63ce1924fdaa4db6d522d26e98c8d6158440d8748c4e55bf77d819f7dff47fcfa0d1fe2de4d0fa18534caf922f56a9efccc049b3fff0dd6ffce06d02c4a33d394f33354cb457c61d2796192446f0cd37eb7278a272360d1ea1696ae4ba3b8314a631e33874b14c7eb646305c24612239ce4c5ef3ccb4b5bb6f2beeb7f939bfeec2e0e0ebe85e7ba38968d592f3134b8939f7ff77996fcda62f498408df874aec8105fdc8147e5ff51a23845527aa7ff9b1e0db178553bcbde93461749cca244da3a2f3cf61c2f6dd9cafb6fbe9e0d377d84e9d1098410a89a4a241127d19a666cdf6100d6fdd6e524bb756cb7783c51f44e7329764d8955a24136367f0213543c446b7d46622c9ebb9ca229b474a738b86d94a7366ee6c37f700bb7fef91f9d52ceaa9b1c78e30d76fce4157443a7a3bf735e23a530ec93db79f246ecd91398a0e95dbc34b3cebd2bbda8f1d99b99c8f18fb73f80e77afcf8d127f8f1a34fcc593eb3647e3b70be2bc9edf5c7c67ece2bf36b7563029b134ba36c3df88cb3a93862bbbe33f7b4bef1ce2f539c9eff7523d5d1d2b08c6bf964f738d6c476f74960dfbc833720b8a586943921c4bf871f2fb3e6c6f81f762c8b2be1cce9cbaebd761deff9e01568aa81a61a2867785ac5f36d5ccf24d377e64c5afa92cab4cdd103356bf0f1d2c3933bbc6f4929034b14039dc5a4943f154214a49355577e48bfc51f30526ddd3174d587b72db76ebcf7e6d3ded5389993ef6abc1dcff5b12a0ed3c36526874ae55d3fc87e73fc35eb6129e570907d0a7c9a97520e0a21eec9eeb67eb1fae3eeadfdeb94f5a97619496704e9361d2d1d277c164b4929258ee550c95729e466284c4f53cae5cc83dbc79fddbd75fcdf2a47ed27a5948167420bfa18b01062c0481b575cf481bedfe85fdbffbeaebe9e81747b87966a6d271a6b236ab41089b4a0876384f4109a1e424a896b3bb8b643dd2c52afe7a9d5f2542b398af9690ad9496ffaf0919d8707475eddfff2e873d56cfd4529e5d882f5e19d78905c08a100fd7a545fddbbb2f792ee81de9eaedec53de94c675b2c9e368c78c23022866144a311840899b5ba69d56ad55aa558af560ab5fcf4d199e9f12363470f8c8f8eed1edb562bd5762ea49413da7e3e7e58400811036240fcd87b0c480209c007cac75e15a07aec559152d6dff1b6367f79616e9affedd380a6a006340535a029a8014d410d680a6a405350039a821ad014d480a6a006340535a029a8014d410df85f2b133be9c6a0eecb0000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="XBM.GZ" length="79">789c534e494dcbcc4b554829cdcdad8c2fcf4c29c95030e0524611cd48cd4ccf28010a1797249664262b2467241641a592324b8aa363156c15aab914146aadb90067111b1f</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>spinBoxGraphNumber</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>SwapFileViewerBase</receiver>
+        <slot>viewGraph(int)</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonClear</sender>
+        <signal>pressed()</signal>
+        <receiver>SwapFileViewerBase</receiver>
+        <slot>clear()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonRemoveThis</sender>
+        <signal>pressed()</signal>
+        <receiver>SwapFileViewerBase</receiver>
+        <slot>removeCurrentGraph()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonSave</sender>
+        <signal>pressed()</signal>
+        <receiver>SwapFileViewerBase</receiver>
+        <slot>save()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonLoad</sender>
+        <signal>pressed()</signal>
+        <receiver>SwapFileViewerBase</receiver>
+        <slot>load()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>viewGraph( int )</slot>
+    <slot>removeCurrentGraph()</slot>
+    <slot>clear()</slot>
+    <slot>save()</slot>
+    <slot>load()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>qgewidget.h</includehint>
+</includehints>
+</UI>

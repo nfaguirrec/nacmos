@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.42.2"
+   sodipodi:docbase="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons"
+   sodipodi:docname="source.svg"
+   inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+   inkscape:export-xdpi="9.8293514"
+   inkscape:export-ydpi="9.8293514">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient7540">
+      <stop
+         style="stop-color:#0076f2;stop-opacity:1;"
+         offset="0"
+         id="stop7542" />
+      <stop
+         id="stop7548"
+         offset="0.66666669"
+         style="stop-color:#0076f2;stop-opacity:0.49803922;" />
+      <stop
+         style="stop-color:#0076f2;stop-opacity:0;"
+         offset="1"
+         id="stop7544" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6026">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6028" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop6030" />
+    </linearGradient>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3648"
+       id="pattern4398"
+       patternTransform="matrix(0.465993,0.000000,0.000000,0.465993,-366.8348,82.90021)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2152"
+       id="pattern3646"
+       patternTransform="matrix(0.653379,0.000000,0.000000,0.653379,-366.8348,82.90020)" />
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2153"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         sodipodi:nodetypes="cccc"
+         id="path2148"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(-5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2156"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8)" />
+    </marker>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="204.83478"
+       height="139.46198"
+       patternTransform="translate(-366.8348,82.90020)"
+       id="pattern2152">
+      <image
+         id="image2154"
+         height="139.46198"
+         width="204.83478"
+         sodipodi:absref="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/patternHide.png"
+         xlink:href="patternHide.png"
+         x="1096.0000"
+         y="999.90021"
+         transform="translate(-1096.000,-999.9002)" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="133.83478"
+       height="91.121552"
+       patternTransform="translate(-366.8348,82.90021)"
+       id="pattern3648">
+      <rect
+         style="fill:url(#pattern3646);stroke:none"
+         width="133.83478"
+         height="91.121552"
+         x="-366.83478"
+         y="82.900208"
+         id="rect3650"
+         transform="translate(366.8348,-82.90021)" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="62.366024"
+       height="42.461975"
+       patternTransform="translate(-366.8348,82.90021)"
+       id="pattern4400">
+      <rect
+         style="fill:url(#pattern4398);stroke:none"
+         width="62.366024"
+         height="42.461975"
+         x="-366.83478"
+         y="82.900208"
+         id="rect4402"
+         transform="translate(366.8348,-82.90021)" />
+    </pattern>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7540"
+       id="radialGradient7546"
+       cx="750.54333"
+       cy="1079.6364"
+       fx="750.54333"
+       fy="1079.6364"
+       r="172.73608"
+       gradientTransform="matrix(1.000000,0.000000,0.000000,0.578947,4.119968e-16,454.5838)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="806.18426"
+     inkscape:cy="392.42076"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1386"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="1074.8023"
+       id="guide5144" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="163.64471"
+       id="guide5146" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="866.71088"
+       id="guide5148" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect9060"
+       width="292.00000"
+       height="292.00000"
+       x="1124.8000"
+       y="906.56219"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/edgetypes.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:40.000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       d="M 1196.0000,647.36218 L 1313.4667,515.36218"
+       id="path52666"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect51904"
+       width="292.00000"
+       height="292.00000"
+       x="1062.2000"
+       y="55.862156"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:40.000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-miterlimit:4.0000000;stroke-dasharray:none"
+       d="M 1147.5333,266.36218 L 1265.0000,134.36218"
+       id="path51920"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect37632"
+       width="292.00000"
+       height="292.00000"
+       x="570.20001"
+       y="41.862167"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:1.0000000;stroke:#87757d;stroke-width:1.0000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect33834"
+       width="292.00000"
+       height="292.00000"
+       x="73.500000"
+       y="37.862183"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <g
+       id="g37614"
+       transform="translate(-2.000000,5.999998)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514">
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path37616"
+         d="M 320.03748,177.86218 L 259.00699,177.86218"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.084000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path37618"
+         d="M 122.92052,177.86218 L 183.95102,177.86218"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path37620"
+         d="M 222.15810,79.762440 L 222.15810,140.79294"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path37622"
+         d="M 222.15810,275.96193 L 222.15810,214.93144"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+    </g>
+    <g
+       id="g37604"
+       transform="translate(-3.081847,410.0000)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movegraph.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514">
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path1306"
+         d="M 320.03748,177.86218 L 259.00699,177.86218"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.084000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path3640"
+         d="M 122.92052,177.86218 L 183.95102,177.86218"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path3642"
+         d="M 222.15810,79.762440 L 222.15810,140.79294"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="13.516940"
+         inkscape:export-xdpi="13.516940"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/source.png"
+         id="path3644"
+         d="M 222.15810,275.96193 L 222.15810,214.93144"
+         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.000000;stroke-linecap:round;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-mid:none;marker-end:none;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+    </g>
+    <rect
+       style="opacity:1.0000000;fill:#fff93a;fill-opacity:1.0000000;stroke:#7e1620;stroke-width:1.6616235;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect17945"
+       width="107.17471"
+       height="107.17471"
+       x="164.83081"
+       y="534.27484"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movegraph.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path3654"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,-212.3362,-310.6045)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:1.0000000;stroke:#87757d;stroke-width:1.0000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect14167"
+       width="292.00000"
+       height="292.00000"
+       x="72.418152"
+       y="441.86218"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movegraph.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path37624"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,341.1953,-373.9464)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path37634"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,223.5115,-244.9464)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect38380"
+       width="292.00000"
+       height="292.00000"
+       x="614.56177"
+       y="439.56219"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path38382"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,385.5571,23.75361)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path38384"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,267.8733,152.7536)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:#00ff00;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path41426"
+       d="M 882.22866,527.51407 C 867.33990,523.36218 842.17267,541.24907 885.80040,517.43586 C 887.34773,516.59129 882.85878,519.38063 881.42326,520.40376 C 875.08362,524.92221 869.81788,530.27185 864.60652,536.01885 C 838.38698,568.48798 814.15018,602.52313 789.09170,635.89287 C 767.75669,664.19818 748.08577,694.82621 719.40791,716.44364 C 689.74030,737.66877 681.98827,738.38897 676.53176,708.52069 L 703.63605,694.02921 C 709.37737,720.28902 726.36434,709.17055 689.97216,727.97223 C 721.19506,709.16032 739.87710,675.09692 762.11684,647.50589 C 787.16222,614.56456 811.26932,580.90110 836.29123,547.95891 C 853.90574,527.34239 880.59411,503.29171 909.17475,508.92773 L 882.22866,527.51407 z "
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:#00ff00;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path41440"
+       d="M 640.76606,467.78999 C 664.94511,468.93568 688.97274,476.34028 709.03637,489.95134 C 739.02582,513.54253 754.24366,549.75820 769.12738,583.68170 C 789.18944,625.22705 806.01917,675.82976 849.20512,698.67792 C 844.54763,704.15651 885.13033,703.31550 884.99182,703.39642 C 843.69322,727.52401 862.84473,716.72064 872.20916,705.40226 L 900.60536,693.27411 C 880.60423,719.02848 852.93693,732.19850 824.15269,714.98256 C 781.70542,689.50938 764.59328,640.44328 743.97402,597.87732 C 728.45693,564.73253 713.06424,529.48356 683.30979,506.38671 C 662.90415,492.41218 638.82281,484.98674 614.00000,487.23667 L 640.76606,467.78999 z "
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <g
+       id="g51153"
+       transform="matrix(0.712340,0.000000,0.000000,0.712340,217.3574,329.1691)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/movegraph.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path17173"
+         d="M -36.320314,370.70512 L 18.209877,394.79470"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:8.0056334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path17169"
+         d="M 20.513937,400.54879 L 50.997170,318.25107"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:5.7777820;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         transform="matrix(0.247334,0.000000,0.000000,0.247334,-37.20832,214.2920)"
+         d="M 413.15239 436.16913 A 70.710678 70.710678 0 1 1  271.73103,436.16913 A 70.710678 70.710678 0 1 1  413.15239 436.16913 z"
+         sodipodi:ry="70.710678"
+         sodipodi:rx="70.710678"
+         sodipodi:cy="436.16913"
+         sodipodi:cx="342.44171"
+         id="path17155"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#87757d;stroke-width:0.0000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.247334,0.000000,0.000000,0.247334,-66.20832,296.2682)"
+         d="M 413.15239 436.16913 A 70.710678 70.710678 0 1 1  271.73103,436.16913 A 70.710678 70.710678 0 1 1  413.15239 436.16913 z"
+         sodipodi:ry="70.710678"
+         sodipodi:rx="70.710678"
+         sodipodi:cy="436.16913"
+         sodipodi:cx="342.44171"
+         id="path51149"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#87757d;stroke-width:0.0000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.247334,0.000000,0.000000,0.247334,-129.2083,256.7758)"
+         d="M 413.15239 436.16913 A 70.710678 70.710678 0 1 1  271.73103,436.16913 A 70.710678 70.710678 0 1 1  413.15239 436.16913 z"
+         sodipodi:ry="70.710678"
+         sodipodi:rx="70.710678"
+         sodipodi:cy="436.16913"
+         sodipodi:cx="342.44171"
+         id="path51151"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#87757d;stroke-width:0.0000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path51906"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,833.1953,-359.9464)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path51908"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,715.5115,-230.9464)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect51910"
+       width="292.00000"
+       height="292.00000"
+       x="1109.6942"
+       y="438.56219"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path51912"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,880.6895,22.75360)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path51914"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,763.0057,151.7536)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:#00ff00;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path51916"
+       d="M 1377.3611,526.51403 C 1362.4723,522.36214 1337.3051,540.24903 1380.9328,516.43582 C 1382.4801,515.59125 1377.9912,518.38059 1376.5557,519.40372 C 1370.2160,523.92217 1364.9503,529.27181 1359.7389,535.01881 C 1333.5194,567.48794 1309.2826,601.52309 1284.2241,634.89283 C 1262.8891,663.19814 1243.2182,693.82617 1214.5403,715.44360 C 1184.8727,736.66873 1177.1207,737.38893 1171.6642,707.52065 L 1198.7685,693.02917 C 1204.5098,719.28898 1221.4967,708.17051 1185.1046,726.97219 C 1216.3275,708.16028 1235.0095,674.09688 1257.2492,646.50585 C 1282.2946,613.56452 1306.4017,579.90106 1331.4236,546.95887 C 1349.0381,526.34235 1375.7265,502.29167 1404.3072,507.92769 L 1377.3611,526.51403 z "
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       style="fill:#00ff00;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       id="path51918"
+       d="M 1135.8985,466.78995 C 1160.0775,467.93564 1184.1052,475.34024 1204.1688,488.95130 C 1234.1582,512.54249 1249.3761,548.75816 1264.2598,582.68166 C 1284.3218,624.22701 1301.1516,674.82972 1344.3375,697.67788 C 1339.6800,703.15647 1380.2627,702.31546 1380.1242,702.39638 C 1338.8256,726.52397 1357.9771,715.72060 1367.3416,704.40222 L 1395.7378,692.27407 C 1375.7366,718.02844 1348.0693,731.19846 1319.2851,713.98252 C 1276.8378,688.50934 1259.7257,639.44324 1239.1064,596.87728 C 1223.5893,563.73249 1208.1966,528.48352 1178.4422,505.38667 C 1158.0366,491.41214 1133.9552,483.98670 1109.1324,486.23663 L 1135.8985,466.78995 z "
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/removeedge.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect2103"
+       width="292.00000"
+       height="292.00000"
+       x="66.199997"
+       y="888.16217"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/hidenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:url(#pattern4400);fill-opacity:1.0;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000;fill-rule:nonzero"
+       id="path2105"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,-162.8047,472.3537)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/hidenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1.0000000;fill:url(#pattern4400);fill-opacity:1.0;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="path2107"
+       sodipodi:cx="165.66502"
+       sodipodi:cy="189.69191"
+       sodipodi:rx="19.192898"
+       sodipodi:ry="19.192898"
+       d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+       transform="matrix(2.606683,0.000000,0.000000,2.606683,-280.4885,601.3537)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/hidenode.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <rect
+       style="stroke:none;fill:url(#pattern4400)"
+       width="62.366024"
+       height="42.461975"
+       x="-366.83478"
+       y="82.900208"
+       id="rect4404" />
+    <g
+       id="g8300"
+       transform="translate(86.18734,67.55380)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/nodetypes.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514">
+      <image
+         y="848.36218"
+         x="519.00000"
+         id="image1537"
+         height="256.49237"
+         width="256.49237"
+         sodipodi:absref="/home/nestor/Desktop/filetypes.png"
+         xlink:href="/home/nestor/Desktop/filetypes.png" />
+      <path
+         id="path1542"
+         d="M 575.38341,1062.9876 C 579.37763,1043.3095 575.67607,1036.6357 552.82973,1022.3243 C 514.85202,998.53443 503.39528,956.80808 526.27163,925.59750 C 589.85318,838.85243 768.86119,866.27249 768.86119,962.75684 C 768.86119,993.88968 727.99998,1031.8622 682.46685,1043.0435 C 661.71222,1048.1400 630.48488,1060.0094 613.07273,1069.4198 C 572.17310,1091.5239 569.67761,1091.0980 575.38341,1062.9876 z M 673.90615,1034.4957 C 725.17840,1021.8876 763.96507,982.92169 756.53714,951.48316 C 735.57378,862.75634 556.36640,856.97831 525.36305,944.02968 C 516.04473,970.19366 537.33024,1006.1897 572.79055,1024.2345 C 586.22762,1031.0723 592.44357,1040.6915 590.70551,1051.9578 C 588.19003,1068.2635 589.36440,1068.5124 612.10724,1056.4928 C 625.34202,1049.4981 653.15153,1039.5994 673.90615,1034.4957 z "
+         style="fill:#0000f2;fill-opacity:1.0000000;stroke:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="9.8293514"
+         inkscape:export-xdpi="9.8293514"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+         transform="matrix(1.385870,0.000000,0.000000,1.385870,442.5495,663.9115)"
+         d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+         sodipodi:ry="19.192898"
+         sodipodi:rx="19.192898"
+         sodipodi:cy="189.69191"
+         sodipodi:cx="165.66502"
+         id="path7550"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="9.8293514"
+         inkscape:export-xdpi="9.8293514"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+         transform="matrix(1.385870,0.000000,0.000000,1.385870,379.9816,732.4957)"
+         d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+         sodipodi:ry="19.192898"
+         sodipodi:rx="19.192898"
+         sodipodi:cy="189.69191"
+         sodipodi:cx="165.66502"
+         id="path7552"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       style="opacity:0.0000000;fill:#00f4fc;fill-opacity:0.0000000;stroke:#87757d;stroke-width:1.6000000;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+       id="rect7554"
+       width="292.00000"
+       height="292.00000"
+       x="585.20001"
+       y="898.16217"
+       rx="17.555225"
+       ry="17.555225"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/nodetypes.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514" />
+    <g
+       id="g9068"
+       transform="translate(-0.141552,-2.553802)"
+       inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/edgetypes.png"
+       inkscape:export-xdpi="9.8293514"
+       inkscape:export-ydpi="9.8293514">
+      <image
+         y="926.86981"
+         x="1144.9290"
+         id="image9052"
+         height="256.49237"
+         width="256.49237"
+         sodipodi:absref="/home/nestor/Desktop/filetypes.png"
+         xlink:href="/home/nestor/Desktop/filetypes.png" />
+      <path
+         id="path9054"
+         d="M 1201.3123,1141.4952 C 1205.3065,1121.8171 1201.6050,1115.1433 1178.7586,1100.8319 C 1140.7809,1077.0421 1129.3242,1035.3157 1152.2005,1004.1051 C 1215.7821,917.36006 1394.7901,944.78012 1394.7901,1041.2645 C 1394.7901,1072.3973 1353.9289,1110.3698 1308.3958,1121.5511 C 1287.6411,1126.6476 1256.4138,1138.5170 1239.0016,1147.9274 C 1198.1020,1170.0315 1195.6065,1169.6056 1201.3123,1141.4952 z M 1299.8351,1113.0033 C 1351.1073,1100.3952 1389.8940,1061.4293 1382.4660,1029.9908 C 1361.5027,941.26397 1182.2953,935.48594 1151.2920,1022.5373 C 1141.9736,1048.7013 1163.2591,1084.6973 1198.7195,1102.7421 C 1212.1565,1109.5799 1218.3725,1119.1991 1216.6344,1130.4654 C 1214.1189,1146.7711 1215.2933,1147.0200 1238.0361,1135.0004 C 1251.2709,1128.0057 1279.0804,1118.1070 1299.8351,1113.0033 z "
+         style="fill:#0000f2;fill-opacity:1.0000000;stroke:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="9.8293514"
+         inkscape:export-xdpi="9.8293514"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertedge.png"
+         id="path9066"
+         d="M 1237.3040,1075.0582 L 1303.6960,1000.4520"
+         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:22.607954;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" />
+      <path
+         inkscape:export-ydpi="9.8293514"
+         inkscape:export-xdpi="9.8293514"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+         transform="matrix(1.385870,0.000000,0.000000,1.385870,1068.478,742.4191)"
+         d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+         sodipodi:ry="19.192898"
+         sodipodi:rx="19.192898"
+         sodipodi:cy="189.69191"
+         sodipodi:cx="165.66502"
+         id="path9056"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="9.8293514"
+         inkscape:export-xdpi="9.8293514"
+         inkscape:export-filename="/home/nestor/Desarrollo/Source/C++/Projects/qge2/src/icons/insertnode.png"
+         transform="matrix(1.385870,0.000000,0.000000,1.385870,1005.910,811.0033)"
+         d="M 184.85792 189.69191 A 19.192898 19.192898 0 1 1  146.47213,189.69191 A 19.192898 19.192898 0 1 1  184.85792 189.69191 z"
+         sodipodi:ry="19.192898"
+         sodipodi:rx="19.192898"
+         sodipodi:cy="189.69191"
+         sodipodi:cx="165.66502"
+         id="path9058"
+         style="opacity:1.0000000;fill:#ff0000;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.3903662;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
+         sodipodi:type="arc" />
+    </g>
+  </g>
+</svg>

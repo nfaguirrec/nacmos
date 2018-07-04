@@ -1,0 +1,182 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>FormQgeConfigWeightsWidget</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>FormQgeConfigWeightsWidget</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>416</width>
+            <height>273</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QFrame" row="0" column="0">
+            <property name="name">
+                <cstring>frame6</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>GroupBoxPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Raised</enum>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel" row="0" column="2" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Value :</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="4" column="3">
+                    <property name="name">
+                        <cstring>pushButtonRemove</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Remove &gt;&gt;</string>
+                    </property>
+                </widget>
+                <spacer row="5" column="3">
+                    <property name="name">
+                        <cstring>spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>76</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLineEdit" row="1" column="0">
+                    <property name="name">
+                        <cstring>lineEditName</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="1" column="2" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>lineEditValue</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Name :</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" row="3" column="3">
+                    <property name="name">
+                        <cstring>pushButtonAdd</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Add &lt;&lt;</string>
+                    </property>
+                </widget>
+                <widget class="QTable" row="3" column="0" rowspan="3" colspan="3">
+                    <column>
+                        <property name="text">
+                            <string>Name</string>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Value</string>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>table</cstring>
+                    </property>
+                    <property name="numRows">
+                        <number>6</number>
+                    </property>
+                    <property name="numCols">
+                        <number>2</number>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <spacer row="2" column="1">
+                    <property name="name">
+                        <cstring>spacer5</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Fixed</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>pushButtonAdd</sender>
+        <signal>clicked()</signal>
+        <receiver>FormQgeConfigWeightsWidget</receiver>
+        <slot>add()</slot>
+    </connection>
+    <connection>
+        <sender>pushButtonRemove</sender>
+        <signal>clicked()</signal>
+        <receiver>FormQgeConfigWeightsWidget</receiver>
+        <slot>remove()</slot>
+    </connection>
+    <connection>
+        <sender>table</sender>
+        <signal>doubleClicked(int,int,int,const QPoint&amp;)</signal>
+        <receiver>FormQgeConfigWeightsWidget</receiver>
+        <slot>datesFromTable(int)</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>add()</slot>
+    <slot>remove()</slot>
+    <slot>datesFromTable(int)</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
